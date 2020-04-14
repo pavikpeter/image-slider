@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="viewer">
+        <button id="arrowLeft" onclick="passPics(1)"></button>
+        
+        <img class="slidePics" src="./images/databank_anakinskywalkerspodracer_01_169_fe359d32.jpeg">
+        <img class="slidePics" src="./images/databank_nabooroyalstarship_01_169_e61f677e.jpeg">
+        <img class="slidePics" src="./images/Star-Destroyer_ab6b94bb.jpeg">
+        <img class="slidePics" src="./images/vaders-tie-fighter_8bcb92e1.jpeg">
+        <img class="slidePics" src="./images/veh_ia_1752_040381b2.jpeg">
+        
+        <span id="infoBanner"></span>
+        <button id="arrowRight"onclick="passPics(-1)"></button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts.js"></script> 
+</body>
+</html>
